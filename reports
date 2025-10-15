@@ -1,0 +1,64 @@
+1.Introduction 
+This document presents the Test Plan for the Buggy Car Rating Web Application 
+(https://buggy.justtestit.org/). 
+The goal of testing is not limited to identifying functional issues but also to ensure that 
+the application delivers a smooth, intuitive, and customer-centric user experience. 
+The application allows users to register, log in, explore different car varieties and cast 
+vote etc.Testing approach combines manual testing with Automation using Playwright . 
+In addition to finding bugs, this testing exercise also aims to provide UX 
+recommendations to enhance navigation, layout consistency, error handling, and 
+accessibility. This test plan ensures both functional reliability and delightful user 
+interaction. 
+2.Scope 
+● User registration & login 
+● Car model ratings 
+● Popular make/model ranking 
+● User profile management 
+● UI/UX consistency 
+● Cross-browser (Chrome, Firefox) 
+● Responsive design checks 
+3.Test Objectives 
+● Validate major workflows (login, search, add rating). 
+● Ensure usability 
+● Detect functional and UI/UX issues. 
+● Check in Mobile devices also 
+● Provide actionable recommendations for improvement. 
+4.Test Environment 
+● OS: Windows 11 
+● Browsers: Chrome (latest), Firefox (latest) 
+● Devices: Laptop ,iPhone 13, Mobile view (Chrome DevTools) 
+● Tools: Playwright (automation) using Typescript 
+5.Test Strategy 
+● Manual Testing → functional, regression, UI/UX, responsive design 
+● Automation (Playwright) → Login,Register,Form validation 
+6.Test Delivarables 
+● Test Cases 
+● Bug identification and reporting 
+● Automation using Playwright 
+● Report 
+● Demo video 
+7.Exit Criteria 
+● All high-priority test cases executed 
+● All critical bugs identified and documented 
+● Automation suite executed with report 
+8.Test Approach and Coverage 
+Testing 
+Type 
+Coverage 
+Tools Used 
+Functional 
+Regression 
+UI/UX 
+Responsive 
+Registration, Login, 
+Ratings,Cast vote 
+Repeat all flows 
+Layout, Accessibility 
+Mobile + Desktop views 
+9.Risks and Mitigation 
+Manual 
+Automation (Playwright) 
+Exploratory 
+Chrome DevTools 
+● Risk: Limited time may reduce coverage → Mitigation: Focus on high-priority 
+flows
